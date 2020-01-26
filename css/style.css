@@ -1,0 +1,182 @@
+
+.container {
+    width: 1000px;
+    align-content: center;
+    display: flex;
+    margin: 0 auto;
+}
+
+.image1 {
+    background-image: url("images/pook.JPG");
+    flex-direction: column; 
+}
+
+
+
+.funfact1, .funfact2, .funfact3 {
+    
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+
+.meinfo {
+    background-image: url("../images/Screen\ Shot\ 2020-01-25\ at\ 12.06.25\ AM.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    width: 50%;
+    
+  }
+
+.ttext{
+    width: 300px;
+
+}
+
+.factinfo {
+    flex-direction: column;
+    width: 1000px;
+    margin: 0 auto;
+  }
+
+
+  .funfact1 {
+      
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 300px;
+  }
+
+  .texts {
+    background: rgb(0,0,0,0.7);
+    width: 100%;
+    height: 140px;
+    padding: 5% 20px;
+    color: white;
+    text-align: center;
+  }
+  .text p {
+    color: rgba(255, 255, 255, 0.7);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .ttext p {
+      text-align: center;
+  }
+  .ttext h1 {
+      text-align: center;
+      position: relative;
+  }
+
+  .main-footer {
+      color: teal;
+      align-content: center;
+  }
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+body {
+
+    font-family: 'Poppins', sans-serif;
+  }
+
+.inline_block {
+    display: inline-block;
+    background-color: red;
+    padding: 50px;
+    color: white;
+    
+
+}
+
+
+
+
+
+.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    width: 33%;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#navigation {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    width: 60%;
+    align-items: center;
+  justify-content: space-evenly;
+}
+
+#navBar {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 5%;
+    border-bottom: 1px solid black;
+}
+
+
+h3 {
+    font-size: 32px;
+    font-weight: 500;
+    margin: 0px 0px;
+  }
+
+  .subHeading {
+    text-align: center;
+    width: 300px;
+    margin: 50px auto;
+  }
+h2 {
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0px 0px;
+    text-align: center;
+}
+
+
+
+.info {
+    text-align: center;
+    padding: 15px;
+    height: 25px;
+    color: black;
+    font-size: 18px;
+}
+
+
+.highlight {
+    color: teal;
+    font-weight: 700;
+}
+
+.funfact2pic {
+    background-image: url("../images/swim.jpg");
+    height: 320px;
+    width: 260px;
+}
